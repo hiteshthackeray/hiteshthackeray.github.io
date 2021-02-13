@@ -1,0 +1,280 @@
+<!Doctype html>
+<html lang="en-US">
+	<head>
+		<title>first html</title>
+		<link rel="stylesheet" href="css/project.css">
+		<style>
+			#mona {
+				border:5px #35BDD0 ridge;
+				padding: 2px;
+				margin: auto;
+				background: #0D0D0D;
+				color:White;
+				}
+			#poke {
+				color:white;
+				background-image:url('css/leaves.jpg');
+				background-size:cover;
+				text-align: center;
+				}
+			span {
+				width: 100px;
+				display: inline-block;
+			}
+			details {
+				font-family: cursive;
+			}
+			summary{
+				font-family: serif;
+				font-variant: small-caps;
+			}
+			table ,td, th{
+				border-collapse: collapse;
+				border: 2px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<header>hiteshthackeray.github.io</header>
+		<figure id="figlogo">
+			<img id="logo" src="css/fc.png" alt="hitesh thakare">
+		</figure>
+		<div>
+	<!--headings attribute-->
+			<h1 style="color:blue ; background: yellow">This is the h1 heading.</h1>
+			<h2 style="color:#f0f0f0; background: #0f0f0f">This is the h2 heading.</h2>
+			<h3>This is the h3 heading.</h3>
+			<h4>This is the h4 heading.</h4>
+			<h5>This is the h5 heading.</h5>
+			<h6>This is the h6 heading.</h6>
+			<hr>
+		</div>
+		<div id="poke">
+		<!--text formatting attributes-->
+			<span>This sentence has a <big>big</big> word.</span> <hr>
+			<span>This sentence has a <small>small</small> word.</span>
+			<span>This sentence has a <strong>strong</strong> word.</span>
+			<span>This sentence has a <b>bold</b> word.</span>
+			<span>This sentence has a <em>emphasized</em> word.</span>
+			<span>This sentence has a <i>italic</i> word.</span>
+			<span>This sentence has a <strike>striked</strike> word.</span>
+			<span>This sentence has a <del>deleted</del> word.</span>
+			<span>This sentence has a <ins>inserted</ins> word.</span>
+			<span>This sentence has a <mark>marked</mark> word.</span>
+			<span>This is a <sup>superscript</sup>.</span>
+			<span>This is a <sub>subscript</sub>.</span>
+			<hr>
+		</div>
+		<div>
+		<!--quote attribute, blockquote attribute, preformated text attribute, abbreviation attribute, bi directional over-riding attribute,-->
+			<q>This is a quote</q><br>
+			<blockquote>
+				This is a blockquote. 
+				Blockquote is different from normal quote. 
+				Normal quote is used just for a sentence, 
+				while blockquote is used for a paragraph.
+			</blockquote><br>
+			<pre>This is a pre-formatted text.</pre>
+			<abbr title="On Your Own">OYO was founded in India</abbr><br><br>
+			<bdo dir="rtl">This is bidirectional over-riding.</bdo>
+		</div>
+		<hr>
+		<blockquote>
+			the above section can also be viewed in the following two formats:<br><br>
+			<nav style="font-size:80%; font-style: italic">
+				<a href="inline-block-display.html">inline block display</a> |
+				<a href="table-display.html">table display</a> 
+			</nav>
+			<br>
+			<hr>
+		</blockquote>
+		This is a progress tag.<br>
+		<progress value="37" max="100">This is progress</progress>
+		<br>
+		<br>
+		This is a meter tag.<br>
+		<meter value="18" min="0" max="50"></meter>
+		<hr>
+		<audio controls>
+			<source src="css/rage.mp3#t=00:10" type="audio/mpeg">
+		</audio><br>
+		<video style="width:100%; border: 5px inset" controls loop>
+			<source src="css/turtle.mp4" type="video/mp4">
+		</video><br>
+		<!--keyboard formatting attribute, sampling formatting attribute-->
+		<p style="text-align:center; color: violet">Being an Entrepreneur means:</p>
+		<p><kbd>Problem | Solution | Delivery | Hustle | Life</kbd></p>
+		<hr>
+		<p> We, now, are studying Sampling.<samp> The <q>samp</q> is one of the computer code formatting elements.</samp></p>
+		<hr>
+		<!--cite and address attributes-->
+		<figure id="mona">
+			<img src="css/monaLisa.jpg" alt="Mona Lisa" style="float:right; width:300px">
+			<figcaption style="clear: both"><mark>The Mona Lisa</mark> by Leonardo Da Vinci</figcaption>
+		</figure><br>
+		<cite>The Hustler</cite>
+		<address>
+			F10, Suryavihar,<br>
+ 			Behind Dubey Hospital, <br>
+			Badlapur (E), <br>
+ 		</address><hr>
+ 		<!--link attribute, image attribute-->
+		<a href="www.everknow.club" aria-label="Everknow">This is a link to EverKnow.</a><br>
+		<hr>
+		<!--code attribute-->
+		<p> The C++ language begins with</p>
+		<code>
+			#include &#8826;stdio.h&#8827;<br>
+			#include &#8826;conio.h&#8827;<br>
+			printf()
+		</code><hr>
+		<!--ordered list attribute-->
+		<ol>
+			<li>ONE</li>
+			<li>TWO</li>
+			<li>THREE</li>
+			<li>FOUR</li>
+			<li>FIVE</li>
+		</ol>
+		<hr>
+		<!--unordered list attribute-->
+		Make a table of people. The table should contain:- 
+		<ul>
+			<li>NAME</li>
+			<li>AGE</li>
+			<li>ADDRESS</li>
+			<li>D.O.B.</li>
+			<li>GENDER</li>
+		</ul>
+		<hr>
+		<!--table attribute-->
+		<table>
+			<caption>this is Caption attribute</caption>
+			<tr><!--tr= table row attribute-->
+		<!--th= table head attribute-->
+				<th rowspan="2">Sr. No</th>
+				<th rowspan="2">Name</th>
+				<th colspan="2">Birth</th>
+				<th rowspan="2">Address</th>
+				<th rowspan="2">Gender</th>
+			</tr>
+			<tr>
+			<!--td=table unit element data-->
+				<th>D.O.B</th>
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>abc</td>
+				<td>16/09/1989</td>
+				<td>20</td>
+				<td>Badlapur</td>
+				<td>Male</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>def</td>
+				<td>03/05/2007</td>
+				<td>15</td>
+				<td>Jalgaon</td>
+				<td>Male</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>ghi</td>
+				<td>23/10/1994</td>
+				<td>18</td>
+				<td>Parel</td>
+				<td>Male</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>jkl</td>
+				<td>28/02/1978</td>
+				<td>20</td>
+				<td>Jalgaon</td>
+				<td>Female</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>mno</td>
+				<td>08/09/2018</td>
+				<td>11</td>
+				<td>Badlapur</td>
+				<td>Female</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>pqr</td>
+				<td>18/08/2004</td>
+				<td>4</td>
+				<td>Badlapur</td>
+				<td>Female</td>
+			</tr>
+		</table>
+		<hr>
+		<!--form attribute-->
+		<form method="get">
+		<label for="browser">Choose your favourite company:</label>
+		<input list="browsers" name="browser" id="browser">
+		<datalist id="browsers">
+			<option value="SpaceX"></option>
+			<option value="Tesla"></option>
+			<option value="Neuralink"></option>
+			<option value="Hyperloop"></option>
+			<option value="The Boring Company"></option>
+			<option value="OpenAI"></option>
+		</datalist>
+		<input type="submit"><br>
+		
+			Name: <br><input type="text"><br>
+			Age:<br> <input type="text"><br>
+			Address:<br> <input type="text"><br>
+			D.O.B: <br><input type="text"><br>
+			
+			<label for="day">Select day:</label>
+			<select name="week" id="day">
+			<option value="none">none</option>
+			<option value="monday">Monday</option>
+			<option value="tuesday">Tuesday</option>
+			<option value="wednesday">Wednesday</option>
+			<option value="thursday">Thursday</option>
+			<option value="friday">Friday</option>
+			<option value="saturday">Saturday</option>
+			<option value="sunday">Sunday</option>
+			</select><br>
+			
+			Gender:<br>
+			<!--a label tag maximises clickable area-->
+				<label for="male">
+				<input type="radio" name="Gender" id="male" value="Male">Male<br>
+				</label>
+				<label for="female">
+				<input type="radio" name="Gender" id="female" value="Female">Female<br>
+				</label>
+				<label for="other">
+				<input type="radio" name="Gender" id="other" value="Other">Other<br>
+				</label>
+				<label for="secret">
+				<input type="radio" name="Gender" id="secret" value="Prefer not to say">Prefer Not To Say<br>
+				</label>
+			Passcode:<br> <input type="password"><br>
+			<input type="submit" value="submit"><br>
+			</form><hr>
+		<button type="button"><a href="index.html">Home</a></button>
+		<br>
+		<!--Variable attribute-->
+		Einstein wrote: <br>
+		<var>e=mc<sup>2</sup></var><br>
+		<details>
+			<summary>Hi! I am hitesh thackeray.</summary>
+			i have recently started coding after self evaluating myself for two years. 
+			i am a slow learner. i prefer to learn slowly but qualitatively.
+		</details>
+		<footer>
+			<a href="https://twitter.com/HiteshThackeray/" aria-label="@hiteshthackeray twitter">Twitter</a>
+			<a href="https://www.instagram.com/hiteshthackeray/" aria-label="@hiteshthackeray instagram">Instagram</a>
+		<br>@hiteshthackeray
+		</footer>
+	</body>
+</html>
