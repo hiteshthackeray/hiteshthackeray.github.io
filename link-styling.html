@@ -1,0 +1,74 @@
+<!Doctype html>
+<html lang="en-US">
+	<head>
+		<title>link styling</title>
+		<link rel="stylesheet" href="css/project.css">
+		<style>
+			a#one:link{
+				color:#0D0D0D;
+				background:#CAD5E2;
+			}
+			a#one:visited {
+			} 
+			a#one:hover {
+				color: #CAD5E2;
+				background: #0D0D0D;
+			}
+			a#one:active {
+				color: #CAD5E2;
+				background: #0D0D0D;	
+			}
+			a#two:link {
+				font-size:small;
+			}
+			a#two:visited {
+				font-size: medium;
+			}
+			a#two:hover {
+				font-size:large;
+			}
+			a#two:active {
+				font-size: extra-large;
+			}
+			a[href^="http"]{
+				background:#E5D68A;
+				margin:4px;
+				text-decoration:none;
+				padding:8px;
+				display: inline-block;
+			}
+			a[href*="tesla"] {
+				background:#51E1ED;
+				color:#120E43;
+				text-decoration:None;
+			}
+			a[href$=".so"] {
+				background:#6A1B4D;
+				color:#CAD5E2;
+			}
+		</style>
+	</head>
+	<body>
+		<header>hiteshthackeray.github.io</header>
+		<figure id="figlogo">
+			<img id="logo" src="css/fc.png" alt="hitesh thakare">
+		</figure>
+		<details style="float:right;margin:5%;clear:both;">
+			<summary style="clear:both"><i class="fas fa-bars"></i></summary>
+				<menu>
+					<a href="table-display.html">table-display</a>
+					<a href="inline-block-display.html">inline-block-display</a>
+					<a href="box.html">box</a>
+					<a href="link-styling.html">link-styling</a>
+				</menu>
+		</details>
+		<a id="one" href="">The background and colour of this link will interchange on clicking.</a><br>
+		<br>
+		<a id="two" href="">The size of this link will increase on clicking.</a><br><br>
+		<a href="https://www.google.com">Google</a>
+		<a href="https://www.tesla.com">Tesla</a>
+		<a href="https://www.amazon.com">Amazon</a>
+		<a href="https://www.canva.com">Canva</a>
+		<a href="https://www.notion.so">Notion</a>
+	</body>
+</html>

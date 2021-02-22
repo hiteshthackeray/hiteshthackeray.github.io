@@ -1,0 +1,89 @@
+<!Doctype html>
+<html lang="en-US">
+	<head>
+		<title>table-display</title>
+		<link rel="stylesheet" href="css/project.css">
+		<style>
+			#poke {
+				color:white;
+				background-image:url('css/leaves.jpg');
+				background-size:cover;
+				text-align: center;
+				}
+			div {
+				width:30% ;
+				height: 50px;
+				display: inline-block;
+				overflow: auto;
+			} 
+			span {
+				width: 100px;
+				display: inline-block;
+			}
+			#distab {
+				display:table;
+				height: 50px;
+			}
+			.discell {
+				width: 30%;
+				display:table-cell;
+				overflow: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<header>hiteshthackeray.github.io</header>
+		<figure id="figlogo">
+			<img id="logo" src="css/fc.png" alt="hitesh thakare">
+		</figure>
+		<h1 style="background:#120E43; margin:4px; padding: 10px; color:#5DA3FA; border: 3px dashed #46B2E0;">This is table display: </h1>
+		<div id="distab">
+			<div class="discell">
+			<!--headings attribute-->
+				<h1 style="color:blue ; background: yellow">This is the h1 heading.</h1>
+				<h2 style="color:#f0f0f0; background: #0f0f0f">This is the h2 heading.</h2>
+				<h3>This is the h3 heading.</h3>
+				<h4>This is the h4 heading.</h4>
+				<h5>This is the h5 heading.</h5>
+				<h6>This is the h6 heading.</h6>
+				<hr>
+			</div>
+			<div id="poke" class="discell">
+				<!--text formatting attributes-->
+				<span>This sentence has a <big>big</big> word.</span> <hr>
+				<span>This sentence has a <small>small</small> word.</span>
+				<span>This sentence has a <strong>strong</strong> word.</span>
+				<span>This sentence has a <b>bold</b> word.</span>
+				<span>This sentence has a <em>emphasized</em> word.</span>
+				<span>This sentence has a <i>italic</i> word.</span>
+				<span>This sentence has a <strike>striked</strike> word.</span>
+				<span>This sentence has a <del>deleted</del> word.</span>
+				<span>This sentence has a <ins>inserted</ins> word.</span>
+				<span>This sentence has a <mark>marked</mark> word.</span>
+				<span>This is a <sup>superscript</sup>.</span>
+				<span>This is a <sub>subscript</sub>.</span>
+				<hr>
+			</div>
+			<div class="discell">
+				<!--quote attribute, blockquote attribute, preformated text attribute, abbreviation attribute, bi directional over-riding attribute,-->
+				<q>This is a quote</q><br>
+				<blockquote>
+					This is a blockquote. 
+					Blockquote is different from normal quote. 
+					Normal quote is used just for a sentence, 
+					while blockquote is used for a paragraph.
+				</blockquote><br>
+				<pre>This is a pre-formatted text.</pre>
+				<abbr title="On Your Own">OYO was founded in India</abbr><br><br>
+				<bdo dir="rtl">This is bidirectional over-riding.</bdo>
+			</div>
+		</div>
+		<button type="button"><a href="practice.html">Back</a></button>
+		<button type="button" style="float:right"><a href="index.html">Home</a></button>
+		<footer>
+			<a class="social-media" href="https://twitter.com/HiteshThackeray/" aria-label="@hiteshthackeray twitter">Twitter</a>
+			<a class="social-media" href="https://www.instagram.com/hiteshthackeray/" aria-label="@hiteshthackeray instagram">Instagram</a>
+			<br>@hiteshthackeray
+		</footer>
+	</body>
+</html>
